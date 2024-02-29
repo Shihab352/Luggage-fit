@@ -1,0 +1,525 @@
+/* import font style from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    font-family: "Mulish", sans-serif;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+p {
+    color: rgb(90, 90, 93);
+}
+
+.common-description {
+    color: rgb(255, 255, 255);
+}
+
+button {
+    border: none;
+}
+
+a:hover{
+    color:  rgb(255, 84, 0);
+}
+
+/* header section start here */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+    gap: 40px;
+}
+
+nav>ul>li {
+    list-style: none;
+}
+
+nav>ul>li a {
+    text-decoration: none;
+    color: rgb(66, 66, 71);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-title {
+    font-size: 2.8rem;
+    font-weight: 800px;
+}
+
+.section-title span {
+    color: rgb(255, 84, 0);
+}
+
+.home {
+    color: rgb(255, 84, 0);
+}
+
+.banner-section {
+    background-image: url(/Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 16px;
+
+}
+
+.banner-title {
+    font-size: 4rem;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+}
+
+.banner-content {
+    padding: 100px 180px;
+    /* background: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8), rgba(19, 19, 24, 0) 100%); */
+}
+
+.banner-form {
+    display: flex;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 16px;
+}
+
+
+
+.primary-btn img {
+    width: 16px;
+    height: 16px;
+    color: rgb(255, 255, 255);
+    margin-right: 8px;
+    text-align: center;
+}
+
+
+#type,
+#when,
+#input {
+    width: 200px;
+    padding: 16px;
+    border-radius: 8px;
+    color: rgba(19, 19, 24, 0.5);
+    font-weight: 400;
+    border: none;
+}
+
+.primary-btn {
+    border-radius: 8px;
+    background: rgb(255, 84, 0);
+    color: rgb(255, 255, 255);
+    padding: 16px;
+    gap: 10px;
+    width: 175px;
+}
+
+/* main section start */
+.popular-tour {
+    display: flex;
+    margin-top: 50px;
+}
+
+.popular-tour-title {
+    color: rgb(19, 19, 24);
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+.section-content {
+    margin-right: 20px;
+}
+
+.section-content li {
+    margin-top: 30px;
+    color: rgba(19, 19, 24, 0.7);
+    line-height: 30px;
+}
+
+.description {
+    color: rgba(19, 19, 24, 0.7);
+}
+
+.read-more {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 8px;
+    background: rgb(255, 84, 0);
+    padding: 14px 30px;
+}
+
+.section-picture {
+    margin-top: 70px;
+}
+
+/* destination style */
+
+.destination {
+    margin-top: 70px;
+}
+
+.destinatio-title {
+    color: rgb(19, 19, 24);
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+    margin-top: 50px;
+}
+
+.title-description {
+    color: rgba(19, 19, 24, 0.7);
+    width: 600px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    align-items: center;
+    margin: 20px auto 50px;
+}
+
+.pictures-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.pictures-container1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin: 20px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.picture-item {
+    position: relative;
+}
+
+.picture-content {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    border-radius: 16px;
+    background: rgba(1, 1, 2, 0.2), url(1);
+}
+
+.a,
+.b {
+    left: 120px;
+}
+
+.c {
+    left: 80px;
+}
+
+.d {
+    left: 160px;
+}
+
+.e {
+    left: 240px;
+}
+
+
+/* Advanteges */
+
+.section-title {
+    color: rgb(19, 19, 24);
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.handpicked {
+    width: 486px;
+    height: 180px;
+    padding: 30px 50px 30px 30px;
+    margin-right: 20px;
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    border-radius: 16px;
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.card-icon {
+    width: 50px;
+    height: 50px;
+
+}
+
+.service {
+    width: 486px;
+    height: 180px;
+    padding: 30px 50px 30px 30px;
+    border: 1px solid rgba(41, 206, 246, 0.2);
+    border-radius: 16px;
+    background: rgba(41, 206, 246, 0.05);
+
+}
+
+.best-price {
+    width: 486px;
+    height: 180px;
+    padding: 30px 50px 30px 30px;
+    border: 1px solid rgba(233, 68, 68, 0.2);
+    border-radius: 16px;
+    background: rgba(233, 68, 68, 0.05);
+    margin: 20px auto;
+}
+
+.card-title {
+    color: rgb(19, 19, 24);
+    font-size: 24px;
+    font-weight: 800;
+    margin: 10px 0;
+
+}
+
+/* Deals & Discount */
+
+.card-description {
+    color: rgb(90, 90, 93);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card-details {
+    width: 400px;
+    height: 300px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.8);
+    position: relative;
+    left: 550px;
+    top: 60px;
+    padding: 40px 77px 40px 55px;
+}
+
+.card-details-title {
+    color: rgb(19, 19, 24);
+    font-size: 24px;
+    font-weight: 800;
+    margin: 10px 0;
+}
+
+.pricing {
+    color: rgb(255, 84, 0);
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.book-now {
+    border-radius: 8px;
+    background: rgb(255, 84, 0);
+    color: rgb(255, 255, 255);
+    padding: 13px 24px;
+}
+
+.icon-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.icon-section img {
+    width: 20px;
+    height: 20px;
+}
+
+.card-img {
+    position: absolute;
+}
+
+/* .card-1{
+    margin-top:100px;
+} */
+.card-2 {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.card2-card-details {
+    width: 400px;
+    height: 300px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.8);
+    position: relative;
+    left: 50px;
+    top: 60px;
+    padding: 40px 77px 40px 55px;
+}
+
+.see-all-btn {
+    text-align: center;
+}
+
+.see-all {
+    border-radius: 8px;
+    background: rgb(255, 84, 0);
+    color: rgb(255, 255, 255);
+    padding: 13px 24px;
+    margin-top: 150px;
+}
+
+
+.Newsletter {
+    margin-top: 100px;
+    display: flex;
+}
+
+.form-section {
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 84, 0);
+    border-radius: 16px;
+    margin-right: 25px;
+    padding: 40px;
+    margin-top: 10px;
+}
+
+.form-input {
+    width: 300px;
+    height: 50px;
+    margin: 15px 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+}
+
+.sub {
+    width: 310px;
+    margin-top: 15px;
+}
+
+.newsletter-img {
+    position: absolute;
+}
+
+.save-70 {
+    position: relative;
+    border-radius: 16px;
+    background: rgb(255, 84, 0);
+    color: rgb(255, 255, 255);
+    padding: 13px 24px;
+    font-size: 2rem;
+    font-weight: 800;
+    top: 270px;
+    left: 370px;
+    transform: rotate(-19.63deg);
+    ;
+}
+
+.travel {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+/* footer */
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.footer-description {
+    margin-top: 0;
+}
+
+.s-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.footer-title {
+    font-size: 2.8rem;
+    font-weight: 800px;
+}
+
+.footer-title span {
+    color: rgb(255, 84, 0);
+}
+
+.footer {
+    border-bottom: 1px solid rgba(19, 19, 24, 0.1);
+    ;
+}
+
+footer {
+    text-align: center;
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 100px;
+}
+
+.footer-caption {
+    margin: 50px 0;
+}
+
+@media screen and (max-width:600px) {
+    body {
+        margin: 0 20px;
+    }
+
+    nav>ul {
+        display: none;
+    }
+
+    .banner-content {
+        padding: 20px;
+    }
+
+    .banner-form {
+        flex-direction: column;
+    }
+
+    .popular-tour {
+        flex-direction: column;
+    }
+
+    .pictures-container {
+        grid-template-columns: (1, 1fr);
+    }
+
+    .card-details {
+        left: 50px;
+        top: 60px;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+}
